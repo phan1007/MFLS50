@@ -8,7 +8,7 @@ In this paper, an efficient temporal contextual tracker with truncated $\ell_{1}
 ## An example for the update strategies of 4 trackers in the interval is:
 ![image](https://github.com/phan1007/MFLS50/blob/main/figs/update_strategies.png)
 ## Comparison of forward-backward tracking trajectory results for different trackers on the same sequence.
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/fbttr.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/fbttr.png)
 # MFS2oT Dataset
 Two multibeam forward-looking sonars are used in our experiments, i.e., Blueview M900-130 and Blueprint M750d. The acoustic specifications of these two sonars are provided as follows
 | Acoustic Specifications  | Blueview M900-130 | Blueprint M750d |
@@ -22,13 +22,13 @@ Two multibeam forward-looking sonars are used in our experiments, i.e., Blueview
 |  Range resolution | 4mm | 1.4cm |
 |  Update rate | 40Hz | 25Hz |
 ## scenarios for data collection
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/Scenarios.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/Scenarios.png)
 
 ## Mechanical structure for data collection
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/FM.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/FM.png)
 
 ## The UUV during the experiments
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/UUV-exp.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/UUV-exp.png)
 
 The experiments have 6 objects including UUV, aluminium metal box, grey box, plane model, red bucket, and submarine model. The parameters of the UUV is presented as follows
 | Parameters  | Specific values |
@@ -40,20 +40,20 @@ The experiments have 6 objects including UUV, aluminium metal box, grey box, pla
 |  Speed | 0-6Knots |
 
 ## 5 objects recorded by the visible camera
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/optical_img.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/optical_img.png)
 
 # Experiments and Results
 ## 25 trackers are benchmarked. Precision and success plots for OPE
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/OPE.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/OPE.png)
 
 ## Top 10 tracker results for the challenge attributes of Tugboat Wake (TW), Random Rays(RRI) and Fake Targets(FT)
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/TW-RRI-FT.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/TW-RRI-FT.png)
 
 ## Top 10 tracker results for the challenge attributes of Low Resolution(LR) and Ambiguous Target(AT)
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/LR-AT.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/LR-AT.png)
 
 ## Precision and success plots for TRE and SRE
-![image](https://github.com/phan1007/MFLS2oT/blob/main/figs/TRE-SRE.png)
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/TRE-SRE.png)
 # References
 Xueqiong Sui, Han Pan, Zhongliang Jing and Henry Leung, "Multibeam Forward-Looking Sonar Video Object Tracking Using Truncated L1-L2 Sparsity and Aberrances Repression Regularization," in IEEE Robotics and Automation Letters, vol. 9, no. 2, pp. 1122-1129, Feb. 2024, doi: 10.1109/LRA.2023.3342669.
 # Acknowledgements
