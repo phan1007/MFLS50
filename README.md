@@ -21,7 +21,8 @@ Two multibeam forward-looking sonars are used in our experiments, i.e., Blueview
 |  Vertical beamwidth | $20^{o}$ | $20^{o}$ |
 |  Range resolution | 4mm | 1.4cm |
 |  Update rate | 40Hz | 25Hz |
-## scenarios for data collection
+## Schematic diagram and data collection scenarios for autonomous underwater dynamic docking experiment
+It can be seen that the captured sonar image contains complex clutters.
 ![image](https://github.com/phan1007/MFLS50/blob/main/figs/Scenarios.png)
 
 ## Mechanical structure for data collection
@@ -45,6 +46,9 @@ The experiments have 6 objects including UUV, aluminium metal box, grey box, pla
 # Experiments and Results
 ## 25 trackers are benchmarked. Precision and success plots for OPE
 ![image](https://github.com/phan1007/MFLS50/blob/main/figs/OPE.png)
+
+## Qualitative results of five trackers (ARCF, The proposed method, STRCF, CSRDCF, and TADT) on MFLS image sequences
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/results.png)
 
 ## Top 10 tracker results for the challenge attributes of Tugboat Wake (TW), Random Rays(RRI) and Fake Targets(FT)
 ![image](https://github.com/phan1007/MFLS50/blob/main/figs/TW-RRI-FT.png)
