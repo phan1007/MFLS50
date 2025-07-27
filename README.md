@@ -5,3 +5,5 @@ Multibeam forward-looking sonar object tracking is a fundamental task in underwa
 hanpan@sjtu.edu.cn
 # Proposed Method
 In this paper, an efficient temporal contextual tracker with truncated $\ell_{1}$-$\ell_{2}$ sparsity and aberrances repression regularization (TCL1-L2ARDCF) is developed within the framework. The main idea of the proposed tracker is to utilize the temporal context information of multiple trackers when model drifting by inappropriate model updates. The proposed method is composed of six steps:1) parameters initialization; 2) determine $n$ trackers using different model updating strategies; 3) forward tracking; 4) backward tracking; 5) robustness evaluation; 6) initialization of a group of trackers with the results of the best tracking trajectory, then next track. 
+## An example for the update strategies of 4 trackers in the interval is:
+![image](https://github.com/phan1007/MFLS50/blob/main/figs/update_strategies.png)
